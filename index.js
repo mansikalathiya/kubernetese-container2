@@ -12,6 +12,8 @@ const PORT = 7000;
 
 
 
+
+
 app.post('/sum', (req, res) => {
     const { file, product } = req.body;
     console.log(`Received request to calculate sum for product: ${product} in file: ${file}`);
